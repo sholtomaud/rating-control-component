@@ -1,0 +1,31 @@
+{
+  "name": "rating-control-component",
+  "version": "1.0.0",
+  "description": "rating control component",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shotlom/rating-control-component.git"
+  },
+  "keywords": [
+    "rating-control",
+    "fastn",
+    "component"
+  ],
+  "author": "Sholto Maud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shotlom/rating-control-component/issues"
+  },
+  "homepage": "https://github.com/shotlom/rating-control-component#readme",
+  "dependencies": {
+    "crel": "^2.2.0",
+    "defaultcss": "^1.1.1",
+    "doc-js": "^1.3.1",
+    "fastn": "^2.6.3",
+    "rating-control": "^1.0.2"
+  }
+}
