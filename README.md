@@ -8,7 +8,7 @@ Built with `fastn.js`
 
 ## Example
 
-[Requirebin simple example](http://requirebin.com/?gist=0275fc20dc656815d94d)
+[Requirebin simple example](http://requirebin.com/?gist=bafa2344b99fad117451)
 
 ## Settings
 
