@@ -37,16 +37,6 @@ module.exports = function(fastn, component, type, settings, children){
 
         return component;
     };
-
-    component.ratingControl.on('value', function(value){
-        // ratingControl.console.log('component: ',value);
-    });
-
-    // ratingControl.on('value', function(value){
-    //     // ratingControl.tab(tab);
-    //     console.log('ratingControl: ',value);
-    // });
-    
     
     function handleValue(){
         var val = ratingControl.value();
@@ -59,7 +49,6 @@ module.exports = function(fastn, component, type, settings, children){
     }
 
     ratingControl.on('value', handleValue);
-
     
     component.value.on('change', function(val){
         ratingControl.value(val);
