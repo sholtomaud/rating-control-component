@@ -1,6 +1,6 @@
 {
   "name": "rating-control-component",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "rating control component",
   "main": "index.js",
   "scripts": {
