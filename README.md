@@ -6,6 +6,10 @@ Built with `fastn.js`
 
 # Usage
 
+## Example
+
+[Requirebin simple example](http://requirebin.com/?gist=0275fc20dc656815d94d)
+
 ## Settings
 
 Refer to [rating-control](https://github.com/MauriceButler/rating-control), for rating-control settings.
