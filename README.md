@@ -8,12 +8,11 @@ Built with `fastn.js`
 
 ## Settings
 
-```
-...
-
-```
+Refer to [rating-control](https://github.com/MauriceButler/rating-control), for rating-control settings.
 
 ## Fastn component
+
+Use as a fastn component:
 
 ```
 var fastn = require('fastn')({
@@ -21,22 +20,7 @@ var fastn = require('fastn')({
     ratingControl: require('rating-control-component/ratingControlComponent')
 });
 
-var ratingControl = fastn('ratingControl', { options... });
+var ratingControl = fastn('ratingControl', { settings: ... });
 ```
 
-ratingControl will attempt to use `text`, `_generic`, `list` and `templater` components provided by fastn.
-
-## Inserting
-
-```
-someDomNode.appendChild(ratingControl.element);
-```
-
-## Properties
-
-### Show
-
-```
-...
-
-```
+ratingControl will attempt to use the `_generic` component provided by fastn.
