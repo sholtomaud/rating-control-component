@@ -10,6 +10,8 @@ module.exports = function(fastn, component, type, settings, children){
     
     component.extend('_generic', settings, children);
     component.setProperty('ratingControl');
+    component.setProperty('value');
+    component.value(0);
 
     var ratingTemplate = crel('div', {class: 'item'} );
     
@@ -35,6 +37,33 @@ module.exports = function(fastn, component, type, settings, children){
 
         return component;
     };
+
+    component.ratingControl.on('value', function(value){
+        // ratingControl.console.log('component: ',value);
+    });
+
+    // ratingControl.on('value', function(value){
+    //     // ratingControl.tab(tab);
+    //     console.log('ratingControl: ',value);
+    // });
+    
+    
+    function handleValue(){
+        var val = ratingControl.value();
+
+        if(isNaN(val)) {
+            return;
+        }
+
+        component.value(val);
+    }
+
+    ratingControl.on('value', handleValue);
+
+    
+    component.value.on('change', function(val){
+        ratingControl.value(val);
+    });
 
     return component;
 };
